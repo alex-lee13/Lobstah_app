@@ -1,8 +1,20 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "CoachPage1",
       "isDefault": true
+    },
+    {
+      "id": "CoachPage2",
+      "isDefault": false
+    },
+    {
+      "id": "CommissionerPage1",
+      "isDefault": false
+    },
+    {
+      "id": "Commissioner Page2",
+      "isDefault": false
     }
   ],
   "viewMode": false,
