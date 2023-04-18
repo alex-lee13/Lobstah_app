@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 970,
+          "bottomRow": 980,
           "containerStyle": "none",
           "snapRows": 46,
           "parentRowSpace": 1,
@@ -30,7 +30,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 15,
+              "topRow": 16,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -100,6 +100,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1681835211810,
+              "originalBottomRow": 28,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -275,7 +276,7 @@
               "key": "lot7bpkazc",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 35,
+              "rightColumn": 64,
               "textSize": "0.875rem",
               "widgetId": "qwmiqp6a3y",
               "minWidth": 450,
@@ -287,6 +288,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
+              "originalTopRow": 15,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             },
@@ -300,8 +302,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 29,
-              "bottomRow": 68,
+              "topRow": 30,
+              "bottomRow": 69,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -874,7 +876,7 @@
               "key": "ba4jhiexsv",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 27,
+              "rightColumn": 45,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "z3roteyb9s",
               "minWidth": 450,
@@ -883,10 +885,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 29,
+              "originalTopRow": 30,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 68,
+              "originalBottomRow": 69,
               "minDynamicHeight": 10
             },
             {
@@ -899,8 +901,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 69,
-              "bottomRow": 97,
+              "topRow": 70,
+              "bottomRow": 98,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -977,10 +979,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 20,
+                      "originalTopRow": 24,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 24,
+                      "originalBottomRow": 28,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -1232,7 +1234,7 @@
               "key": "ba4jhiexsv",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 21,
+              "rightColumn": 39,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "y6c1hs3ops",
               "minWidth": 450,
@@ -1241,10 +1243,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 69,
+              "originalTopRow": 70,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 97,
+              "originalBottomRow": 100,
               "minDynamicHeight": 10
             },
             {
@@ -1257,8 +1259,8 @@
               "searchTags": [
                 "dropdown"
               ],
-              "topRow": 7,
-              "bottomRow": 14,
+              "topRow": 8,
+              "bottomRow": 15,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "type": "SELECT_WIDGET",
@@ -1304,8 +1306,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
+              "originalTopRow": 7,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
+              "originalBottomRow": 14,
               "onOptionChange": "{{get_individual_game.run()}}",
               "minDynamicHeight": 4
             },
@@ -1319,7 +1323,7 @@
                 "label"
               ],
               "topRow": 1,
-              "bottomRow": 5,
+              "bottomRow": 6,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -1358,8 +1362,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
+              "originalTopRow": 1,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
+              "originalBottomRow": 5,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             }
@@ -1384,9 +1390,7 @@
               "name": "get_games",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [
-                "gameID.selectedOptionValue"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
