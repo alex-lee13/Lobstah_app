@@ -99,7 +99,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681835211810,
+              "columnUpdatedAt": 1681837187007,
               "originalBottomRow": 28,
               "defaultSelectedRowIndices": [
                 0
@@ -107,11 +107,11 @@
               "widgetName": "Game_info",
               "defaultPageSize": 0,
               "columnOrder": [
-                "avg_tix_price",
                 "gameID",
                 "game_date",
-                "num_tix",
-                "s_name"
+                "s_name",
+                "avg_tix_price",
+                "num_tix"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
@@ -119,7 +119,10 @@
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
-                "status": 85
+                "status": 85,
+                "avg_tix_price": 137,
+                "gameID": 92,
+                "num_tix": 105
               },
               "parentRowSpace": 10,
               "hideCard": false,
