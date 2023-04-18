@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 780,
+          "bottomRow": 860,
           "containerStyle": "none",
           "snapRows": 46,
           "parentRowSpace": 1,
@@ -35,8 +35,8 @@
               "searchTags": [
                 "dropdown"
               ],
-              "topRow": 52,
-              "bottomRow": 59,
+              "topRow": 60,
+              "bottomRow": 67,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "type": "SELECT_WIDGET",
@@ -82,8 +82,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
+              "originalTopRow": 60,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
+              "originalBottomRow": 67,
               "onOptionChange": "{{get_specific_pc.run()}}",
               "minDynamicHeight": 4
             },
@@ -92,7 +94,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 4,
+              "topRow": 7,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -158,6 +160,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1681832236275,
+              "originalBottomRow": 53,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -170,7 +173,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 50,
+              "bottomRow": 53,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -289,6 +292,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
+              "originalTopRow": 7,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             },
@@ -297,7 +301,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 62,
+              "topRow": 70,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -374,6 +378,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1681836037276,
+              "originalBottomRow": 86,
               "primaryColumnId": "p_number",
               "defaultSelectedRowIndices": [
                 0
@@ -391,7 +396,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 78,
+              "bottomRow": 86,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -622,8 +627,65 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
+              "originalTopRow": 70,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
+            },
+            {
+              "widgetName": "Text1",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 0,
+              "bottomRow": 5,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 10.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "truncateButtonColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "text": "PLAYER CONTRACTS TAB FOR COMMISSIONER",
+              "key": "knrbykw8ag",
+              "isDeprecated": false,
+              "rightColumn": 21,
+              "textAlign": "LEFT",
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "bfhzffqlyh",
+              "minWidth": 450,
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 0,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 5,
+              "fontSize": "1rem",
+              "minDynamicHeight": 4
             }
           ]
         },
