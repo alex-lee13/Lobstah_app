@@ -28,6 +28,9 @@
   "publishedAppLayout": {
     "type": "DESKTOP"
   },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
