@@ -23,6 +23,9 @@
   "color": "#ECECEC",
   "icon": "shirt",
   "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
     "type": "DESKTOP"
   },
   "unpublishedCustomJSLibs": [],
