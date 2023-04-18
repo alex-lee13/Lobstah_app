@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_all_practices",
+    "name": "get_player_contracts",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/c/practices"
+        "url": "web:4000/lc/playercontracts"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "CoachPage1",
+    "pageId": "CommissionerPage1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,7 +42,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -53,7 +53,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "CoachPage1_get_all_practices",
+  "id": "CommissionerPage1_get_player_contracts",
   "deleted": false,
-  "gitSyncId": "6439a3eadceedb5527369fbe_643ca2899dfafb2616afecc3"
+  "gitSyncId": "6438186b9c2e426f742cefd2_643eb80723be44763427bb7a"
 }
